@@ -3,10 +3,13 @@ Attempt to replicate: https://code.google.com/p/gmaps-api-issues/issues/detail?i
 
 Steps to get this repo working:
 1. Clone the repo
+
 2. Navigate to project folder in terminal
-3. Update pods via
+
+3. Update pods with
 
     $ pod update
+
 
 4. Open project with .workspace file.
 
