@@ -2,6 +2,7 @@
 Attempt to replicate: https://code.google.com/p/gmaps-api-issues/issues/detail?id=9142
 
 Steps to get this repo working:
+
 1. Clone the repo
 
 2. Navigate to project folder in terminal
@@ -9,7 +10,6 @@ Steps to get this repo working:
 3. Update pods with
 
     $ pod update
-
 
 4. Open project with .workspace file.
 
