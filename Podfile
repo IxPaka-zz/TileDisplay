@@ -3,9 +3,11 @@
 # Uncomment this line if you're using Swift
 # use_frameworks!
 
+platform :ios, '8.0'
+
 target 'TileDisplay' do
 
-
+pod 'GoogleMaps'
 
 end
 

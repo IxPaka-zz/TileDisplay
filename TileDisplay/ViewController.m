@@ -7,8 +7,15 @@
 //
 
 #import "ViewController.h"
+#import <GoogleMaps/GoogleMaps.h>
+#import "TestTileLayer.h"
+
+
 
 @interface ViewController ()
+
+@property(nonatomic, strong) GMSMapView *mapView;
+@property(nonatomic, strong) TestTileLayer *testTileLayer;
 
 @end
 
@@ -16,7 +23,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.mapView = [GMSMapView mapWithFrame:CGRectZero camera:[GMSCameraPosition cameraWithLatitude:-33.868 longitude:151.2086 zoom:6]];
+    self.view = self.mapView;
+    
+    self.testTileLayer = [[TestTileLayer alloc] init];
+    self.testTileLayer.map = self.mapView;
 }
 
 - (void)didReceiveMemoryWarning {
