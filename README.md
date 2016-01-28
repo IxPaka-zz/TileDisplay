@@ -7,9 +7,7 @@ Steps to get this repo working:
 
 2. Navigate to project folder in terminal
 
-3. Update pods with
-
-    $ pod update
+3. Update pods with "pod update"
 
 4. Open project with .workspace file.
 
